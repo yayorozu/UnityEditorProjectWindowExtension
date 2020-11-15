@@ -4,6 +4,6 @@ namespace Yorozu.EditorTools.Project
 	{
 		public abstract string Display(string path);
 
-		public abstract string DisplayName();
+		public abstract string PreferenceName();
 	}
 }

@@ -10,7 +10,7 @@ namespace Yorozu.EditorTools.Project
 			return System.IO.Path.GetExtension(path);
 		}
 
-		public override string DisplayName()
+		public override string PreferenceName()
 		{
 			return "FileExtension";
 		}

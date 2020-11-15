@@ -15,7 +15,7 @@ namespace Yorozu.EditorTools.Project
 			return obj.GetType().Name;
 		}
 
-		public override string DisplayName()
+		public override string PreferenceName()
 		{
 			return "ScriptableObjectName";
 		}

@@ -39,7 +39,7 @@ namespace Yorozu.EditorTools.Project
 				{
 					using (var check = new EditorGUI.ChangeCheckScope())
 					{
-						var isValid = EditorGUILayout.Toggle(type.DisplayName(), ProjectExtension.IsValid(type.GetType()));
+						var isValid = EditorGUILayout.Toggle(type.PreferenceName(), ProjectExtension.IsValid(type.GetType()));
 						if (check.changed)
 						{
 							ProjectExtension.Update(type.GetType(), isValid);
